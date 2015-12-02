@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Bongo Blast! (final one).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3F52DF601C0FB7A90064257F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F52DF741C0FB7A90064257F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F52DF7F1C0FB7A90064257F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
