@@ -1,25 +1,233 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wpV-ZE-BLw">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="RZV-lI-sCx">
+            <objects>
+                <viewController id="XEP-WT-1ls" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tGV-Hb-duq"/>
+                        <viewControllerLayoutGuide type="bottom" id="J1S-dq-DiD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DmX-BA-tVs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8a3-NO-mav">
+                                <rect key="frame" x="277" y="193" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z6p-Ib-7J1">
+                                <rect key="frame" x="-6" y="64" width="606" height="536"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="FreeVector-Jungle-Background" translatesAutoresizingMaskIntoConstraints="NO" id="2jB-2c-81d">
+                                        <rect key="frame" x="-42" y="-6" width="616" height="558"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XvR-nB-CQ8">
+                                        <rect key="frame" x="170" y="210" width="204" height="51"/>
+                                        <animations/>
+                                        <state key="normal" title="Button" image="PlayButton1"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="OKT-Ur-OOe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dF-RR-nfc">
+                                        <rect key="frame" x="170" y="282" width="204" height="51"/>
+                                        <animations/>
+                                        <state key="normal" title="Button" image="InstructionsButton"/>
+                                        <connections>
+                                            <segue destination="iyl-ps-fmk" kind="show" id="U3O-ai-FIQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="2jB-2c-81d" firstAttribute="centerX" secondItem="z6p-Ib-7J1" secondAttribute="centerX" id="RAy-vm-jBB"/>
+                                    <constraint firstItem="2jB-2c-81d" firstAttribute="centerX" secondItem="z6p-Ib-7J1" secondAttribute="centerX" id="vI6-Lb-yDS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.2656477689743042" green="0.64375925064086914" blue="0.094321422278881073" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OHB-sb-mCd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1f2-47-yTP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2433" y="533"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CB2-Oj-z3V">
+            <objects>
+                <viewController id="iyl-ps-fmk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oHY-rA-oM1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Oe7-s6-QOq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DfA-ZH-8oO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FreeVector-Jungle-Background" translatesAutoresizingMaskIntoConstraints="NO" id="fJ2-YQ-1nJ">
+                                <rect key="frame" x="-39" y="64" width="589" height="630"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Play the Bongos as fast as " lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESg-YH-EyV">
+                                <rect key="frame" x="51" y="41" width="1019" height="436"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Congo King!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epe-vh-OMF">
+                                <rect key="frame" x="57" y="369" width="312" height="41"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="you can can to become the" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1RG-cT-Xdk">
+                                <rect key="frame" x="7" y="300" width="397" height="42"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="epe-vh-OMF" firstAttribute="centerX" secondItem="DfA-ZH-8oO" secondAttribute="centerX" id="0k2-S9-5pl"/>
+                            <constraint firstItem="ESg-YH-EyV" firstAttribute="centerX" secondItem="DfA-ZH-8oO" secondAttribute="centerX" id="tJB-33-lh1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="daH-kM-wHT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2433" y="1396"/>
+        </scene>
+        <!--HI-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bongo_Blast___final_one_" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view multipleTouchEnabled="YES" alpha="0.050000000000000003" contentMode="scaleToFill" horizontalHuggingPriority="256" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jj6-Rk-651">
+                                <rect key="frame" x="-8" y="404" width="175" height="87"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="aw4-Ha-cd5" appends="YES" id="48d-Mz-zOe"/>
+                                </connections>
+                            </view>
+                            <view multipleTouchEnabled="YES" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9HR-ay-mGg">
+                                <rect key="frame" x="187" y="404" width="169" height="87"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="yIw-dl-cZn" appends="YES" id="zSj-zP-5Ti"/>
+                                </connections>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="stock-illustration-4586795-bongo-drums-icon" translatesAutoresizingMaskIntoConstraints="NO" id="hpC-k5-VVW">
+                                <rect key="frame" x="-99" y="273" width="496" height="517"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1p-KA-U7l">
+                                <rect key="frame" x="177" y="95" width="211" height="147"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="87"/>
+                                <color key="textColor" red="0.99418008209999997" green="0.06146703085" blue="0.14163948100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Um0-Fs-06f">
+                                <rect key="frame" x="-54" y="-6" width="250" height="219"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" title="Button" image="StartButton2">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="myStartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ro-Tj-AOw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6Z-Cj-p7T">
+                                <rect key="frame" x="25" y="236" width="274" height="165"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="143"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="y6Z-Cj-p7T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ik1-x6-WZZ"/>
+                            <constraint firstItem="hpC-k5-VVW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T1z-Fl-m7k"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="HI" id="aUu-HH-Xo9"/>
+                    <connections>
+                        <outlet property="countDownLabel" destination="P1p-KA-U7l" id="MPv-1h-uXK"/>
+                        <outlet property="leftTap" destination="aw4-Ha-cd5" id="WHT-hG-Orb"/>
+                        <outlet property="myLabel" destination="y6Z-Cj-p7T" id="u9a-8F-m9I"/>
+                        <outlet property="rightTap" destination="yIw-dl-cZn" id="PeH-OA-bVD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="aw4-Ha-cd5">
+                    <connections>
+                        <action selector="TapLeft:" destination="BYZ-38-t0r" id="uGP-jd-eCD"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="yIw-dl-cZn">
+                    <connections>
+                        <action selector="tapRight:" destination="BYZ-38-t0r" id="bLQ-a1-PRb"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="3298" y="533"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="P8E-xl-CV0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wpV-ZE-BLw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fc2-2N-IOe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XEP-WT-1ls" kind="relationship" relationship="rootViewController" id="aro-bF-5UC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nZz-Aa-5kJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1621" y="533"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FreeVector-Jungle-Background" width="1024" height="1365"/>
+        <image name="InstructionsButton" width="689" height="107"/>
+        <image name="PlayButton1" width="553" height="107"/>
+        <image name="StartButton2" width="122" height="46"/>
+        <image name="stock-illustration-4586795-bongo-drums-icon" width="190" height="190"/>
+    </resources>
 </document>

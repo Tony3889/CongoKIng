@@ -487,6 +487,7 @@
 				3F52DF8B1C0FB7A90064257F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F52DF8C1C0FB7A90064257F /* Build configuration list for PBXNativeTarget "Bongo Blast! (final one)Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +496,7 @@
 				3F52DF8E1C0FB7A90064257F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F52DF8F1C0FB7A90064257F /* Build configuration list for PBXNativeTarget "Bongo Blast! (final one)UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +505,7 @@
 				3F52DF911C0FB7A90064257F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
